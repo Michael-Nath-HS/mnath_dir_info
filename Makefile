@@ -4,3 +4,6 @@ main.o: main.c
 	gcc -c main.c
 run: l.out
 	./l.out
+clean: 
+	rm *.o
+	rm *.out
